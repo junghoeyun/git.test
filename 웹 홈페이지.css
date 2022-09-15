@@ -1,0 +1,46 @@
+select{
+    border-style: none;
+}
+main{
+    color: white;
+    text-align: center;
+}
+div{
+    display: block;
+}
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.brand-site-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 895px;
+    margin-top: -280px;
+    margin-left: -440px;
+}
+.brand-site-wrap .brand-site {
+    margin-top: 50px;
+    margin-left: -25px;
+}
+.list{
+    float: left;
+}
+.brand-site-wrap .brand-site .list{
+
+    display: block;
+    margin-bottom: 5px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3.5px;
+    cursor: default;    
+}
+body{
+
+    background-color: lightgray;
+
+}

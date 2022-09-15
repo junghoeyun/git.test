@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+div{
+    display: block;
+}
+body{
+    height: 100%;
+    background-image: url(https://www.haevichi.com/data/2022/7/1/11/20220701110845874756.db);
+    background-size: cover;
+    font-family: 'Chosunilbo_myungjo';
+}
+img{
+    vertical-align: top;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1,4fr) ;
+    grid-template-rows: 1fr 0.2fr 5fr 1fr;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.header_login_style{
+    display: flex;
+    justify-content:end;
+}
+.header_login_style li:last-child::after {
+    display: inline-block;
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin: 5px 4px ;
+}
+.header_login_style > li{
+    margin-right: 10px;
+    margin-top: -7px;
+
+}
+.header_login_style > li > a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    
+}
+.dropdown{
+    display: block;
+    cursor: pointer;
+    color : rgb(37, 37, 37);
+    font-size: 18px;
+    }
+.dropdown-content{
+    display : none;
+    position : absolute;
+    z-index : 1; /*다른 요소들보다 앞에 배치*/
+    background-color: #f9f9f9;
+}
+
+.dropdown-content a{
+    display : block;
+    text-decoration : none;
+    color : rgb(37, 37, 37);
+    font-size: 15px;
+    padding : 13px 20px;
+
+    
+}
+.dropdown-content a:hover{
+    background-color : #ececec
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 108px;
+    border-top:1px solid rgba(0, 0, 0, 0.2);
+}
+
+.type{
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid rgba(0, 0, 0, 0.2);
+}
+.type_list{
+    display: flex;
+    padding: 3px;
+}
+.type_list li{
+    padding: 3px;
+}
+.product{
+    position:relative;
+}
+.product > ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.product > ul > li{
+    display: block;
+    margin-right: 7%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.product > ul > li > h3{
+    color: burlywood;
+}
+.vidio{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    border-top: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+}
+.icon_top{
+    position: fixed;
+    display: block;
+    right: 4%;
+    z-index: 100;
+    bottom:25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    border-radius: 47%;
+    padding: 20px;
+}
+.icon_top a:hover{
+    color: white;
+}
+
+@media screen and (max-width:576px) {
+    .grid{
+        display: block;
+    }
+
+}

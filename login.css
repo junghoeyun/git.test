@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: none;
+}
+.login_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,0.7);
+    margin: 0;
+    height: 80px;
+    color: white;
+}
+
+.login_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+}
+.login_main_commend{
+    display: block;
+    position: relative;
+    font-size: 28px;
+    padding: 45px;
+    border: 1px solid rgba(0, 0, 0,0.7);
+}
+.table{
+    background-color: rgba(0, 0, 0,0.2);
+}
+
+.tablelist li{
+    float: left;
+    padding: 30px;
+    border-right: 1px soild rgba(0, 0, 0,0.2);
+    
+}
+.tablelist li :hover{
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+}
+#memberID , #memberpassword{
+    width: 100%;
+    height: 41px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    }
+#loginsubmit{
+    position: relative;;
+    width: 100%;    
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.end{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join{
+    border-right: 1px solid rgba(0, 0, 0,0.2); ;
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.find{
+    font-size: 15px;
+}

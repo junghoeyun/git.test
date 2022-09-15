@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Haevichi</title>
+    <link rel="icon" href="https://www.haevichi.com/ko/pc/img/com/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="https://fonts.google.com/noto/specimen/Noto+Sans+KR">  
+</head>
+<body class="grid">
+    <header>        
+        <div>            
+            <div class="header">
+                <div class="header_login">
+                    <ul class="header_login_style">
+                        <li> <a href="" >로그인</a></li>
+                        <li> <a href="">회원가입</a></li>
+                        <li> <a href="">마이페이지</a></li>
+                    </ul>
+                    <div>        
+                        <h1> <a href="./index.html"> Haevichi</a></h1>
+
+                        <p>HOTEL&RESORT JEJU</p>
+                    </div>
+                    </div>
+                </div>      
+            </div>
+        </header>
+        <div class="icon_top"> 
+            <a href="" name=".menu"><i class="fas fa-chevron-up fa-3xl" aria-hidden="true"></i></a>
+        </div>
+        <nav>
+            <div class="login_nav">
+                <h1>Login</h1>
+            </div>                 
+        </nav>
+        <main class="login_main">
+            <div class="login_main_commend">
+                <div role="tablelist">
+                    <div class="table">
+                        <ul class="tablelist">
+                            <li> <a href=""style=" transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">로그인</a></li>
+                            <li> <a href="">비로그인(예약확인)</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <label for="memberID" style="top: 35px; transform: matrix(1, 0, 0, 1, 0, 0);">ID</label>
+                        <input id="memberID" name="" type="text" placeholder=""
+                        title="ID입력" maxlength="20" 
+                        onkeydown="return validationCheck(event,'1');"
+                        onkeyup="validationCheck(event,'1');">
+                    </div>
+                    <div>
+                        <label for="memberpw" style="top:35px">PASSWORD</label>
+                        <input id="memberpassword" name type="password" placeholder=""
+                        title="PASSWORD입력" maxlength="20" 
+                        onkeydown="return validationCheck(event,'5');"
+                        onkeyup="validationCheck(event,'5');">
+                    </div>
+                    <button id="loginsubmit" type="submit" onclick>LOGIN</button>
+                    <div class="end">
+                        <a href="./회원가입.html" class="join">Join Us</a>
+                        <a href="" class="find">Find ID and PASSWORD</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <footer >
+        <div class="footer">
+            <h1>Havichi</h1>
+            <p>010-0000-0000</p>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</html>
